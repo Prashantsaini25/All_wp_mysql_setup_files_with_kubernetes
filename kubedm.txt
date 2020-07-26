@@ -1,0 +1,8 @@
+172.31.45.217 master
+172.31.43.245 slave1
+172.31.43.214 slave2
+
+
+kubeadm join 172.31.45.217:6443 --token n78kcn.7ahoq75lopitojdc \
+    --discovery-token-ca-cert-hash sha256:f8a9bf980eeae74c5cbef8ffd0028ae88c185a2e8f569f162d9c217d43c0a0aa
+
